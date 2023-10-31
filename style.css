@@ -1,0 +1,192 @@
+/* styles.css */
+
+/* Apply basic styles to the main container */
+/* styles.css */
+
+/* Apply styles to the horizontal navbar */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 15px 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #f0f0f0;
+}
+
+/* Style the hamburger menu for smaller screens */
+.hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Media query to show/hide the hamburger menu for responsive design */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+    nav ul {
+        display: none;
+    }
+}
+
+/* The rest of the CSS remains the same as in the previous messages */
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Style the chat container */
+.chat-container {
+    width: 60%;
+    height: 500px;
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 15px;
+    color: black;
+    margin: 40px;
+}
+
+/* Style chat messages */
+.message {
+    padding: 10px;
+    margin: 10px;
+    max-width: 80%;
+    border-radius: 10px;
+    clear: both;
+    overflow: hidden;
+}
+
+.user {
+    float: left;
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.assistant {
+    float: right;
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+/* Style the input container */
+.input-container {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    outline: none;
+}
+
+#send-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Style the "Copy Text" button */
+button.copy-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Style the "Try Now" buttons */
+.try-now {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* styles.css */
+
+/* Apply styles to the footer */
+footer {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+
+/* Rest of your existing CSS for the sidebar, navbar, and hamburger menu */
